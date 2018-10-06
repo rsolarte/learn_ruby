@@ -1,12 +1,14 @@
-#Calculator program RS
+#Calculator program RS for two numbers
 x=0
-valor=[]
+valor=[] 
 
-def calc (var1,var2) #sum method
+def calc (var1,var2) #calculations method
     xsum = (var1 + var2)
     xmul = (var1 * var2)
+    xsub = (var1 - var2)
     puts "Sum of two numbers = #{xsum}"
     puts "Multiplicaction of two numbers = #{xmul}"
+    puts "Substraction first minus second number = #{xsub}"
 end
 
 loop do
